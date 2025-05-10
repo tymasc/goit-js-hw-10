@@ -1,0 +1,72 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+#datetime-picker {
+    font-family: "Montserrat", sans-serif;
+    padding: 8px 0px 8px 16px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid rgb(128, 128, 128);
+}
+
+#datetime-picker:hover {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#datetime-picker:active {
+    border: 1px solid rgb(78, 117, 255);
+}
+
+#datetime-picker:disabled {
+    border: 1px solid rgb(128, 128, 128);
+    color: rgb(128, 128, 128);
+}
+
+#button-timer {
+    font-family: "Montserrat", sans-serif;
+    outline: none;
+    border: 1px solid rgb(78, 117, 255);
+    background: rgb(78, 117, 255);
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+#button-timer:disabled {
+    border: 1px solid rgb(207, 207, 207);
+    background: rgb(207, 207, 207);
+    color: #989898;
+}
+
+#button-timer:disabled:hover {
+    border: 1px solid rgb(207, 207, 207);
+    background: rgb(207, 207, 207);
+    color: #989898;
+}
+
+#button-timer:hover {
+    background: rgb(108, 140, 255);
+    border: 1px solid rgb(108, 140, 255);
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+.value {
+    font-size: 40px;
+}
+
+.label {
+    font-size: 16px;
+}
+
+.timer {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
