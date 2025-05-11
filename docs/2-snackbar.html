@@ -9,11 +9,32 @@
   <title>Snackbar</title>
   <script type="module" crossorigin src="/goit-js-hw-10/2-snackbar.js"></script>
   <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/modulepreload-polyfill-B5Qt9EMX.js">
-  <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/2-snackbar-DoPsKn4j.css">
+  <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-A92OCY9B.js">
+  <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/vendor-CUZofXIC.css">
+  <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/2-snackbar--hlpoOSe.css">
 </head>
 <body>
   <a class="back-link" href="./index.html">Go back</a>
-<h1>Snackbar</h1>
+<form class="form">
+    <label>
+      Delay (ms)
+      <input type="number" name="delay" required id="input-snackbar"/>
+    </label>
+
+    <fieldset id="fieldset-snackbar">
+      <legend id="legend-snackbar">State</legend>
+      <label id="label-snackbar">
+        <input type="radio" name="state" value="fulfilled" required />
+        Fulfilled
+      </label>
+      <label id="label-snackbar">
+        <input type="radio" name="state" value="rejected" required />
+        Rejected
+      </label>
+    </fieldset>
+
+    <button type="submit" id="button-snackbar">Create notification</button>
+  </form>
 
   
 
