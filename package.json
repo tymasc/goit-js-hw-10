@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build --base=/vanilla-app-template/",
     "preview": "vite preview",
-    "predeploy" : "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {

@@ -11,7 +11,26 @@
 </head>
 <body>
   <a class="back-link" href="./index.html">Go back</a>
-<h1>Snackbar</h1>
+<form class="form">
+    <label>
+      Delay (ms)
+      <input type="number" name="delay" required id="input-snackbar"/>
+    </label>
+
+    <fieldset id="fieldset-snackbar">
+      <legend id="legend-snackbar">State</legend>
+      <label id="label-snackbar">
+        <input type="radio" name="state" value="fulfilled" required />
+        Fulfilled
+      </label>
+      <label id="label-snackbar">
+        <input type="radio" name="state" value="rejected" required />
+        Rejected
+      </label>
+    </fieldset>
+
+    <button type="submit" id="button-snackbar">Create notification</button>
+  </form>
 
   
 

@@ -10,6 +10,7 @@ body {
     border-radius: 4px;
     outline: none;
     border: 1px solid rgb(128, 128, 128);
+    transition: border 250ms ease-in-out;
 }
 
 #datetime-picker:hover {
@@ -29,7 +30,7 @@ body {
     font-family: "Montserrat", sans-serif;
     outline: none;
     border: 1px solid rgb(78, 117, 255);
-    background: rgb(78, 117, 255);
+    background-color: rgb(78, 117, 255);
     color: #fff;
     padding: 8px 16px;
     border-radius: 8px;
@@ -37,18 +38,18 @@ body {
 
 #button-timer:disabled {
     border: 1px solid rgb(207, 207, 207);
-    background: rgb(207, 207, 207);
+    background-color: rgb(207, 207, 207);
     color: #989898;
 }
 
 #button-timer:disabled:hover {
     border: 1px solid rgb(207, 207, 207);
-    background: rgb(207, 207, 207);
+    background-color: rgb(207, 207, 207);
     color: #989898;
 }
 
 #button-timer:hover {
-    background: rgb(108, 140, 255);
+    background-color: rgb(108, 140, 255);
     border: 1px solid rgb(108, 140, 255);
 }
 
